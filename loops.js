@@ -5,7 +5,7 @@ function forLoop(array) {
   return array
 }
 
-function whileLoop(n) {
+function whileLoop(n=20) {
   while (n > 0) {
     console.log(--n)
   }
